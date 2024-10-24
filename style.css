@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Container */
+.navbar-new {
+  max-width: 100%; /* You can set this to a specific width like 1200px if desired */
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Row */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 10px;
+}
+
+/* Column (Bootstrap col-4 is 4/12 or 33.33%) */
+.col-4 {
+  flex: 0 0 25%;
+  max-width: 33.33%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Column inside a row */
+.col-3 {
+  flex: 0 0 15%;
+  max-width: 15%;
+  padding-left: 15px;
+  /* padding-right: 15px; */
+}
+
+.logo-container {
+  flex: 0 0 15%;
+  max-width: 30%;
+  padding-left: 15px;
+  /* padding-right: 15px; */
+}
+
+.logo-title {
+  flex: 0 0 85%;
+  max-width: 85%;
+  padding-left: 10px;
+  padding-right: 15px;
+  align-self: center;
+  /* font-size: 16px; */
+  /* justify-content: center; */
+  font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height: 41.45px;
+text-align: left;
+
+}
+
+.col-9 {
+  flex: 0 0 85%;
+  max-width: 85%;
+  /* padding-left: 15px; */
+  padding-right: 15px;
+}
+
+/* Additional styles */
+.navbar-logo {
+  max-width: 130%; /* Adjust based on the size you want for the logo */
+  height: auto;
+}
+
+
+.navbar {
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+.container {
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  background-color: #f8f8f8;
+  padding: 0;
+}
+
+.logo {
+  display: inline-block;
+  font-size: 24px;
+  color: #060606;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  float: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+/*Menu Section*/
+/* Custom column similar to Bootstrap col-4 */
+.custom-column {
+  flex: 0 0 50%;
+  max-width: 33.33%;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center; /* Vertical alignment (align-content-center equivalent) */
+  justify-content: space-between;
+}
+
+/* Custom row similar to Bootstrap row */
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  justify-content: space-between;
+}
+
+/* Custom column-3 (similar to col-3, which is 25% width) */
+.custom-column-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+/* Banner Section */
+.banner {
+  margin: 20px 0;
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+}
+
+.cart {
+  margin: 40px 0;
+}
+
+.cart-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-table table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.cart-table img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.cart-totals {
+  width: 25%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cart-totals h3 {
+  margin-bottom: 20px;
+}
+
+.cart-totals p {
+  margin-bottom: 10px;
+}
+
+.cart-totals button {
+  background-color: #ff9900;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-item {
+  text-align: center;
+}
+
+.footer-item img {
+  width: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-item p {
+  font-size: 14px;
+}
